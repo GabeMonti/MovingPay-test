@@ -7,6 +7,12 @@ Teste para a empresa MovingPay
 - checkout docs at `{{API}}:{{PORT}}/docs/`
 - OU
 - simplesmente rode `{{API}}:{{PORT}}/process` 
+- use o payload `{
+  "vl_venda": 100.00,
+  "qt_parcela": 3,
+  "mdr": 2.00,
+  "rav": 2.00
+  }`
 
 ## Exemplo de requisição 
 - `curl --location 'http://localhost:3000/process' \
